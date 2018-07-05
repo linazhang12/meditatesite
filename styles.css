@@ -1,0 +1,47 @@
+p{
+    text-align: center;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 100px;
+	padding-top: 125px;
+	color: #ffffff;
+}
+
+body{
+	background-image: url(https://images.pexels.com/photos/552784/pexels-photo-552784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.option{
+	display: inline-block;
+	position: relative;
+}
+
+.liststyle, button{
+	position: absolute;
+	background-color: #f1f1f1;
+	font-family: 'Nanum Gothic', sans-serif;
+	opacity: 0.75;
+	width: 120px;
+	height: 25px;
+	border: none;
+	border-radius: 5px;
+}
+
+.button-set{
+	text-align: center;
+}
+
+.navbar {
+    opacity: 0.5;
+    position: fixed;
+    background-color: #f1f1f1;
+}
+.navbar a {
+    float: left;
+    display: block;
+    padding: 10px 45px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+}

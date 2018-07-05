@@ -1,0 +1,31 @@
+.navbar {
+    opacity: 0.5;
+    position: fixed;
+    background-color: #f1f1f1;
+}
+.navbar a {
+    float: left;
+    display: block;
+    padding: 10px 45px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/552784/pexels-photo-552784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.row{
+    margin: 30px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.col-xs-12{
+    background-color: #f1f1f1;
+    padding-left: -5px;
+    border: transparent;
+    opacity: 0.75;
+    font-family: 'Nanum Gothic', sans-serif;
+}

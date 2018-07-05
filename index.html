@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>meditate</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+		<audio id="soundbird" src="bird.mp3"></audio>
+		<audio id="soundwater" src="water.mp3"></audio>
+		<audio id="soundfire" src="fire.mp3"></audio>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	</head>
+
+	<body>
+
+		<p id="logo">meditate</p>
+
+		<form class = "button-set">
+
+			<div class = "option" style ="margin-left: -125px">
+				  	<select class="liststyle" id = "sound">
+				    	<option value="water"> water </option>
+						<option value="fire"> fire </option>
+						<option value="bird"> birds </option>
+					</select>
+			</div>
+
+			<div class = "option" style ="padding-left: 125px">
+					 	 <select class="liststyle" id = "timer">
+					    	<option value="5"> 5 min </option>
+							<option value="10"> 10 min </option>
+							<option value="15"> 15 min </option>
+						</select>
+			</div>
+			<div type = "button" class="option" style ="padding-left: 125px"><button id ="disable" onclick="return set()"> let's start! </button></div>
+		</form>
+
+		<nav class="navbar-fixed-bottom">
+	  		<div class="container">
+					<div class = "navbar">
+					  <a href="index.html">Home</a>
+					  <a href="learnmore.html">Learn More</a>
+					</div>
+			</div>
+		</nav>
+
+	</body>
+	<script type="text/javascript" src="main.js"></script>
+</html>
