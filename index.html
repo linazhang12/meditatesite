@@ -2,19 +2,32 @@
 <html>
 	<head>
 		<meta charset = "UTF-8">
-		<title>meditate</title>
-		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<title>meditate</title>		
 		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+		<!-- audio files -->
 		<audio id="soundbird" src="bird.mp3"></audio>
 		<audio id="soundwater" src="water.mp3"></audio>
 		<audio id="soundfire" src="fire.mp3"></audio>
+		<!-- stylesheet -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 
 	<body>
+		<!-- menu -->
+		<nav class="navbar navbar-fixed-bottom">
+		  <div class="container-fluid">
+		    <ul class="nav navbar-nav">
+		      <li><a href="index.html">Home</a></li>
+		      <li><a href="learnmore.html">Learn More</a></li>
+		    </ul>
+		  </div>
+		</nav>				
 
-		<p id="logo">meditate</p>
-
+		<p id="logo" class="logo">meditate</p>
+		
+		<!-- set audio -->
 		<form class = "button-set">
 
 			<div class = "option" style ="margin-left: -125px">
@@ -24,7 +37,6 @@
 						<option value="bird"> birds </option>
 					</select>
 			</div>
-
 			<div class = "option" style ="padding-left: 125px">
 					 	 <select class="liststyle" id = "timer">
 					    	<option value="5"> 5 min </option>
@@ -35,15 +47,11 @@
 			<div type = "button" class="option" style ="padding-left: 125px"><button id ="disable" onclick="return set()"> let's start! </button></div>
 		</form>
 
-		<nav class="navbar-fixed-bottom">
-	  		<div class="container">
-					<div class = "navbar">
-					  <a href="index.html">Home</a>
-					  <a href="learnmore.html">Learn More</a>
-					</div>
-			</div>
-		</nav>
+</body>
 
-	</body>
+
+
+
+	
 	<script type="text/javascript" src="main.js"></script>
 </html>

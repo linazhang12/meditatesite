@@ -1,17 +1,35 @@
-p{
+/*both html files*/
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    opacity: 0.5;
+    background-color: #f1f1f1;
+    position: fixed;
+}
+
+.navbar a {
+    font-size: 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+body{
+	background-image: url(mountains.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-bottom: 60px;
+}
+
+/*index.html*/
+.logo{
     text-align: center;
 	font-family: 'Nanum Gothic', sans-serif;
 	font-size: 100px;
 	padding-top: 125px;
 	color: #ffffff;
 }
-
-body{
-	background-image: url(https://images.pexels.com/photos/552784/pexels-photo-552784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-
 .option{
 	display: inline-block;
 	position: relative;
@@ -32,16 +50,11 @@ body{
 	text-align: center;
 }
 
-.navbar {
-    opacity: 0.5;
-    position: fixed;
-    background-color: #f1f1f1;
-}
-.navbar a {
-    float: left;
-    display: block;
-    padding: 10px 45px;
-    text-decoration: none;
-    font-size: 14px;
+/*learnmore.html*/
+.row{
+    margin: 30px;
     font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #fff;
 }
+
